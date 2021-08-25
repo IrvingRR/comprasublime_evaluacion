@@ -1,0 +1,31 @@
+.container__preloader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+
+.preloader {
+    width: 70px;
+    height: 70px;
+    border: 10px solid #fff;
+    border-right-color: var(--colorPrimario);
+    border-radius: 100%;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from { transform:  rotate(0deg);}
+    to { transform:  rotate(360deg);}
+}
+
+.preloader__ocultar {
+    display: none;
+}

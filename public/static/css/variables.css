@@ -1,0 +1,14 @@
+:root {
+  --colorPrimario: #51befd ;
+  --colorSecundario:#35abf0 ;
+ 
+
+  --colorHover: #378fd6;
+  --colorFuente: #414141 ;
+  --colorFondo: #f5f6fa ;
+  --fuenteLogo:'Oswald', sans-serif;
+  --colorOscuro: #141212;
+  --fontFamily: 'Karla', sans-serif;
+  --sizeTitulo: 40px;
+  --sizeTexto: 14px;
+}
